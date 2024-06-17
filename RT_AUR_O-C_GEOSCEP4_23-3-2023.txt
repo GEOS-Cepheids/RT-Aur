@@ -1,0 +1,477 @@
+#########################################################################################################################
+# -- GEOS CIRCULAR ON CEPHEIDS --
+# -- (C) GEOS - Guy Boistel (BTL) - March 2023
+#
+# -- RT AUR -- Compilation of 456 times of maximum
+# -- GCVS ephemeris : Time of maximum = HJD 2 454 153.880 + 3.728485 x E (1)
+# -- Catalogues Id. : 48 Aur ; Hip 030827 ; HD 045412 ; IRAS 06253+3031.
+#
+# -- Columns contents :
+# col.1 : Time of maximum (ToM) (HJD + 2400000.0)
+# col.2 : uncertainty on the ToM in days
+# col.3 : type of observation ; vis. - visual; pv - photovisual; pe - photoelectric ; pg - photographic
+#         V - Johnson V filter ; B - Johnson B filter ; un. - unknown
+# col.4 : cycle,phase computed on GCVS ephemeris (1)
+# col.5 : Period shift
+# col.6 : cycle in natural number 
+# col.7 : O-C computed on ephemeris (1) with the cycle given in col. 6
+# col.8 : observer and variable stars group identification
+# col.9 : reference (see the bibliography of the paper)
+#
+########################################################################################################################
+14000.600	0.150	vis	-10769.33	-1	-10770	2.50	Müller & Kempf 1899	Szabados 1977
+14362.300	0.150	vis	-10672.32	-1	-10673	2.54	Astbury&Williams 1905	Astbury / Hellerich 1937
+16934.800	0.050	vis	-9982.36	-1	-9983	2.39	Astbury&Williams 1905	BAV Meyer 2023
+16938.466	0.150	vis	-9981.38	-1	-9982	2.32	Astbury&Williams 1905	Szabados 1977
+16941.920	0.150	vis	-9980.45	-1	-9981	2.05	Astbury&Williams 1905	BAA Williams, Atsbury, 1905
+16942.300	0.150	vis	-9980.35	-1	-9981	2.43	Williams 1905		Szabados 1977
+17173.300	0.150	pg	-9918.39	-1	-9919	2.26	Henroteau & Frédette	Henroteau 1925
+17173.360	0.150	vis	-9918.38	-1	-9919	2.32	Williams 1905		Turner 2007 tab.2
+17173.459	0.150	vis	-9918.35	-1	-9919	2.42	Williams		Williams PA 1916
+17639.320	0.050	vis	-9793.40	-1	-9794	2.22	Von Zeipel		BAV Meyer 2023
+17643.048	0.150	vis	-9792.40	-1	-9793	2.22	Zeipel 1908		Szabados 1977
+17781.070	0.050	pg	-9755.39	-1	-9756	2.29	Wendell 1913		BAV Meyer 2023
+17788.100	0.150	vis	-9753.50	0	-9754	1.86	Wendell 1913		Szabados 1977
+17788.484	0.150	vis	-9753.40	-1	-9754	2.25	Wendell 1913		Szabados 1977
+17889.200	0.150	vis	-9726.38	-1	-9727	2.29	Kukarkin 1931		Szabados 1977
+18015.920	0.150	vis	-9692.40	-1	-9693	2.25	Kukarkin 1931		Szabados 1977
+18243.050	0.150	pg	-9631.48	-1	-9632	1.94	Duncan			Hellerich 1922
+18344.030	0.150	vis	-9604.40	-1	-9605	2.25	Kukarkin 1931		Szabados 1977
+18347.279	0.150	vis	-9603.53	0	-9604	1.77	Mergentaler 1941	Turner 2007 tab.2
+18739.180	0.150	vis	-9498.42	-1	-9499	2.18	Kukarkin 1931		Szabados 1977
+18750.400	0.050	vis	-9495.41	-1	-9496	2.21	Wunder			BAV Meyer 2023
+18921.970	0.150	pg	-9449.39	-1	-9450	2.27	Hellerich		Hellerich 1938
+18921.974	0.150	pg	-9449.39	-1	-9450	2.28	Robinson 1930		Szabados 1977
+19044.990	0.150	vis	-9416.40	-1	-9417	2.25	Kukarkin 1931		Szabados 1977
+19402.800	0.050	vis	-9320.43	-1	-9321	2.13	Hornig			BAV Meyer 2023
+19421.480	0.150	vis	-9315.42	-1	-9316	2.17	Hornig 1915		Szabados 1977
+19451.270	0.150	vis	-9307.43	-1	-9308	2.13	Kukarkin 1931		Szabados 1977
+19507.445	0.050	pg	-9292.36	-1	-9293	2.38	Lacchini 1921		BAV Meyer 2023
+19689.908	0.150	vis	-9243.43	-1	-9244	2.14	Lacchini 1921		Szabados 1977
+19813.015	0.150	vis	-9210.41	-1	-9211	2.21	Nijland 1923		Szabados 1977
+19824.130	0.150	vis	-9207.43	-1	-9208	2.14	Kukarkin 1931		Szabados 1977
+19850.310	0.050	pg	-9200.40	-1	-9201	2.22	Lacchini 1921		BAV Meyer 2023
+19902.260	0.150	vis	-9186.47	-1	-9187	1.97	Kaiser 1922		Szabados 1977
+19928.500	0.050	pg	-9179.43	-1	-9180	2.11	Dziewulski		BAV Meyer 2023
+19928.520	0.050	pg	-9179.43	-1	-9180	2.13	Dziewulski		BAV Meyer 2023
+20036.650	0.050	pg	-9150.43	-1	-9151	2.14	Nijland 1923		BAV Meyer 2023
+20129.921	0.150	vis	-9125.41	-1	-9126	2.20	Nijland 1923		Szabados 1977
+20133.623	0.150	vis	-9124.42	-1	-9125	2.17	Hoffmeister 1915	Szabados 1977
+20152.170	0.050	pg	-9119.44	-1	-9120	2.07	Hoffmeister		BAV Meyer 2023
+20375.871	0.150	pg	-9059.45	-1	-9060	2.07	Kiess 1915		Szabados 1977
+20401.970	0.050	pg	-9052.45	-1	-9053	2.06	Kiess			BAV Meyer 2023
+20465.370	0.050	pg	-9035.44	-1	-9036	2.08	Nijland 1923		BAV Meyer 2023
+20495.430	0.150	vis	-9027.38	-1	-9028	2.31	Kukarkin 1931		Szabados 1977
+20502.691	0.150	vis	-9025.43	-1	-9026	2.12	Nijland 1923		Szabados 1977
+20517.530	0.050	pg	-9021.45	-1	-9022	2.04	Nijland 1923		BAV Meyer 2023
+20909.060	0.050	pg	-8916.44	-1	-8917	2.08	Nijland 1923		BAV Meyer 2023
+20957.466	0.150	pe	-8903.46	-1	-8904	2.02	Eggen			Eggen et al. 1957
+20957.478	0.150	pg	-8903.46	-1	-8904	2.03	Kukarkin 1935		Turner 2007 tab.2
+20972.434	0.150	vis	-8899.44	-1	-8900	2.07	Nijland 1923		Szabados 1977
+20991.000	0.150	vis	-8894.47	-1	-8895	1.99	Luyten 1922		Szabados 1977
+21177.420	0.050	pg	-8844.47	-1	-8845	1.99	Luyten 1922		BAV Meyer 2023
+21278.440	0.150	pg	-8817.37	-1	-8818	2.34	Hellerich		Hellerich 1937
+21300.634	0.150	vis	-8811.42	-1	-8812	2.16	un.			Turner 2007 tab. 3
+21315.702	0.050	pg	-8807.38	-1	-8808	2.32	Lacchini 1921		BAV Meyer 2023
+21475.879	0.150	vis	-8764.42	-1	-8765	2.17	Lacchini 1921		Szabados 1977
+21565.231	0.150	vis	-8740.45	-1	-8741	2.04	Luyten 1922		Szabados 1977
+21636.387	0.150	vis	-8721.37	-1	-8722	2.35	Lacchini 1921		Lacchini 1921
+21647.171	0.150	vis	-8718.48	-1	-8719	1.95	un.			Turner 2007 tab. 3
+21829.980	0.150	vis	-8669.45	-1	-8670	2.06	un.			AAVSO Berdnikov 2003
+22728.380	0.150	vis	-8428.49	-1	-8429	1.90	Viaro 1921		Szabados 1977
+22739.730	0.150	vis	-8425.45	-1	-8426	2.06	Kukarkin 1931		Szabados 1977
+22747.108	0.150	vis	-8423.47	-1	-8424	1.99	Henden 2006		Turner 2007 tab. 3
+22784.241	0.150	un.	-8413.51	0	-8414	1.83	Soloviev 1922		Turner 2007 tab.2
+23112.380	0.150	vis	-8325.50	-1	-8326	1.87	Kukarkin 1931		Szabados 1977
+23239.209	0.150	vis	-8291.48	-1	-8292	1.93	Strömgren 1928		Szabados 1977
+23250.540	0.050	pg	-8288.44	-1	-8289	2.07	Johansson		BAV Meyer 2023
+23272.767	0.150	vis	-8282.48	-1	-8283	1.93	Hellerich		Szabados 1977
+23301.250	0.150	pg	-8274.84	0	-8275	0.58	Hellerich		Hellerich 1937
+23351.180	0.150	vis	-8261.45	-1	-8262	2.04	Kukarkin 1931		Szabados 1977
+23709.046	0.050	pg	-8165.47	-1	-8166	1.97	Hellerich 1934		BAV Meyer 2023
+23791.110	0.150	vis	-8143.46	-1	-8144	2.01	Hopmann 1926		Szabados 1977
+23791.360	0.050	pg	-8143.39	-1	-8144	2.26	Hopmann 1926		BAV Meyer 2023
+23999.770	0.150	vis	-8087.50	-1	-8088	1.88	Hellerich		Szabados 1977
+24189.970	0.050	pg	-8036.48	-1	-8037	1.92	Kowalczewski		BAV Meyer 2023
+24193.350	0.050	pg	-8035.58	0	-8036	1.58	Kowalczewski		BAV Meyer 2023
+24361.434	0.150	pg	-7990.50	-1	-7991	1.88	Kowalczewski		Szabados 1977
+24741.657	0.150	vis	-7888.52	0	-7889	1.80	Kukarkin 1940		Szabados 1977
+24834.950	0.050	pg	-7863.50	-1	-7864	1.88	Kukarkin		BAV Meyer 2023
+25002.580	0.150	pg	-7818.54	0	-7819	1.72	Helllerich		Hellerich 1937
+25002.580	0.050	pg	-7818.54	0	-7819	1.72	Hellerich 1938		BAV Meyer 2023
+25100.820		pg	-7792.19	-1	-7793	3.02	Hellerich		Hellerich 1937
+25155.509	0.150	pg	-7777.52	0	-7778	1.79	Hellerich		Szabados 1977
+25293.462	0.150	vis	-7740.52	0	-7741	1.78	Kukarkin 1940		Szabados 1977
+25300.920	0.050	pg	-7738.52	0	-7739	1.79	Kukarkin		BAV Meyer 2023
+25513.440	0.050	pg	-7681.52	0	-7682	1.78	Kukarkin		BAV Meyer 2023
+25535.844	0.150	vis	-7675.51	0	-7676	1.81	Zverev 1936		Szabados 1977
+25744.619	0.150	vis	-7619.52	0	-7620	1.79	Kukarkin 1940		Szabados 1977
+25990.618	0.150	vis	-7553.54	0	-7554	1.71	Kukarkin 1934		Szabados 1977
+25994.360	0.050	pg	-7552.54	0	-7553	1.73	Zverev			BAV Meyer 2023
+26005.540	0.050	pg	-7549.54	0	-7550	1.72	Zverev			BAV Meyer 2023
+26232.946	0.150	vis	-7488.55	0	-7489	1.69	Zverev 1936		Szabados 1977
+26370.960	0.050	pg	-7451.53	0	-7452	1.75	Kukarkin		BAV Meyer 2023
+26400.773	0.150	vis	-7443.53	0	-7444	1.74	Mergentaler 1941	Szabados 1977
+26419.438	0.150	vis	-7438.53	0	-7439	1.76	Dufay 1947		Turner 2007 tab. 3
+26467.859	0.150	vis	-7425.54	0	-7426	1.71	Nielsen 1939		Szabados 1977
+26475.364	0.150	vis	-7423.53	0	-7424	1.76	Kowalczewski		Szabados 1977
+26520.023	0.150	vis	-7411.55	0	-7412	1.67	Kukarkin 1940		Szabados 1977
+26587.221	0.150	vis	-7393.53	0	-7394	1.76	Dufay 1947		Szabados 1977
+26788.497	0.037	vis	-7339.54	0	-7340	1.70	Dufay 1947		Dufay 1946
+26911.538	0.150	pg	-7306.54	0	-7307	1.70	Grouiller 1947		Szabados 1977
+26971.249	0.150	vis	-7290.53	0	-7291	1.75	Dufay 1947		Turner 2007 tab. 3
+27094.286	0.150	pg	-7257.53	0	-7258	1.75	Grouiller 1947		Grouiller, 1947
+27325.424	0.150	vis	-7195.54	0	-7196	1.72	Dufay 1947		Szabados 1977
+27358.883	0.150	pg	-7186.56	0	-7187	1.62	Grouiller 1947		Grouiller, 1947
+27448.281	0.150	pg	-7162.59	0	-7163	1.54	Grouiller 1947		Grouiller, 1947
+27452.125	0.150	pg	-7161.56	0	-7162	1.65	Grouiller 1947		Szabados 1977
+27463.262	0.150	pg	-7158.57	0	-7159	1.61	Grouiller 1947		Grouiller, 1947
+27489.474	0.150	pg	-7151.54	0	-7152	1.72	Grouiller 1947		Grouiller, 1947
+27504.400	0.150	vis	-7147.54	0	-7148	1.73	Dufay 1947		Turner 2007 tab. 3
+27687.013	0.150	vis	-7098.56	0	-7099	1.65	Krebs 1937		Szabados 1977
+27836.060	0.050	vis	-7058.58	0	-7059	1.56	Krebs 1937		BAV Meyer 2023
+28000.160	0.050	vis	-7014.57	0	-7015	1.60	Krebs 1937		BAV Meyer 2023
+28358.074	0.150	vis	-6918.58	0	-6919	1.58	Krebs 1937		Szabados 1977
+28488.510	0.050	vis	-6883.59	0	-6884	1.52	Krebs 1937		BAV Meyer 2023
+29070.198	0.150	pg	-6727.58	0	-6728	1.57	Opolski 1948		Szabados 1977
+29249.163	0.150	pg	-6679.58	0	-6680	1.56	Bennett 1941		Turner 2007 tab. 3
+29267.393	0.150	pe	-6674.69	0	-6675	1.15	Bennett 1941		Szabados 1977
+29603.272	0.150	pe	-6584.61	0	-6585	1.47	Bennett 1941		Szabados 1991
+29625.692	0.150	pg	-6578.59	0	-6579	1.51	Bennett 1941		Turner 2007 tab. 3
+32955.026	0.150	pe	-5685.65	0	-5686	1.31	Eggen et al. 1957	Turner 2007 tab. 3
+33141.392	0.150	pe	-5635.66	0	-5636	1.25	Eggen et al. 1957	Szabados 1991
+33640.950	0.050	pe	-5501.68	0	-5502	1.19	Eggen et al. 1957	BAV Meyer 2023
+34405.262	0.150	pe	-5296.69	0	-5297	1.17	Eggen et al. 1957	Turner 2007 tab. 3
+34427.819	0.150	pe	-5290.64	0	-5291	1.35	Eggen			Eggen 1957
+34539.420	0.150	vis	-5260.71	0	-5261	1.10	Marks 1959		Szabados 1977
+35057.790	0.150	vis	-5121.68	0	-5122	1.21	Marks 1959		Szabados 1977
+35799.601	0.150	pe	-4922.72	0	-4923	1.05	Prokof'yeva 1961	Szabados 1991
+35821.997	0.150	un.	-4916.71	0	-4917	1.08	Prokof'yeva 1961	Turner 2007 tab. 3
+35881.611	0.050	pe	-4900.72	0	-4901	1.04	Bahner&Mavridis		Szabados 1991
+36146.219	0.150	pe	-4829.75	0	-4830	0.92	Wisniewski&Johnson 1968	Schaltenbrand&Tammann 1971
+36202.239	0.050	pe	-4814.73	0	-4815	1.01	Bahner&Mavridis		Szabados 1991
+36616.072	0.050	pe	-4703.74	0	-4704	0.99	Bahner&Mavridis		Szabados 1991
+37022.610	0.150	B	-4594.70	0	-4595	1.12	Mitchell (MUP) 1964	AAVSO this paper
+37126.806	0.150	V	-4566.75	0	-4567	0.92	Mitchell et al. 1964	Turner 2007 tab. 3
+37339.350	0.150	pe	-4509.75	0	-4510	0.94	Mitchell et al. 1964	Szabados 1991
+37872.454	0.150	vis	-4366.77	0	-4367	0.87	Tsai 1972		Szabados 1977
+37995.423	0.150	pe	-4333.79	0	-4334	0.80	Williams 1966		Szabados 1991
+38010.307	0.150	V	-4329.79	0	-4330	0.77	Williams 1966		Turner 2007 tab. 3
+38424.195	0.150	un.	-4218.79	0	-4219	0.79	Wisniewski&Johnson 1968	Turner 2007 tab. 3
+38692.624	0.150	V	-4146.79	0	-4147	0.77	Kelsall			Fernie 1993
+38920.047	0.150	pe	-4085.80	0	-4086	0.76	Wisniewski&Johnson 1968	Szabados 1991
+39132.508	0.150	un.	-4028.81	0	-4029	0.69	Takase 1969		Turner 2007 tab. 3
+39147.429	0.150	un.	-4024.81	0	-4025	0.70	Wisniewski&Johnson 1968	Turner 2007 tab. 3
+39359.960	0.150	pe	-3967.81	0	-3968	0.71	Takase 1969		Szabados 1991
+40079.464	0.150	vis	-3774.84	0	-3775	0.61	un.			Turner 2007 tab. 3
+40131.746	0.150	V	-3760.81	0	-3761	0.70	Feltz & McNamara	Fernie 1993
+40351.595	0.150	vis	-3701.85	0	-3702	0.57	un.			Turner 2007 tab. 3
+40575.240	0.050	pe	-3641.87	0	-3642	0.50	Feltz & McNamara	BAV Meyer 2023
+40675.924	0.150	vis	-3614.86	0	-3615	0.52	Hen			Turner 2007 tab. 3
+40843.831	0.050	pe	-3569.83	0	-3570	0.64	Feltz & McNamara	Szabados 1991
+40929.580	0.150	vis	-3546.83	0	-3547	0.64	un.			AAVSO Berdnikov 2003
+40970.569	0.150	V	-3535.84	0	-3536	0.61	Evans			Fernie 1993
+40981.756	0.150	un.	-3532.84	0	-3533	0.61	Feltz & McNamara	Turner 2007 tab. 3
+40992.860	0.150	vis	-3529.86	0	-3530	0.53	un.			AAVSO Berdnikov 2003
+40996.641	0.150	un.	-3528.84	0	-3529	0.58	Evans 1976		Turner 2007 tab. 3
+41030.238	0.150	vis	-3519.83	0	-3520	0.63	Henden 2006		Turner 2007 tab. 3
+41239.018	0.150	pe	-3463.84	0	-3464	0.61	Winzer			Winzer 1973
+41250.206	0.150	un.	-3460.84	0	-3461	0.61	Winzer 1973		Turner 2007 tab. 3
+41429.096	0.050	pe	-3412.86	0	-3413	0.54	Winzer 1973		Szabados 1991
+41429.115	0.150	pe	-3412.85	0	-3413	0.55	Winzer 1973		Szabados 1977
+41705.070	0.150	un.	-3338.84	0	-3339	0.60	Szabados 1977		Turner 2007 tab. 3
+41723.711	0.150	pe	-3333.84	0	-3334	0.60	Szabados		Szabados 1977
+41723.750	0.050	pe	-3333.83	0	-3334	0.64	Szabados		BAV Meyer 2023
+41761.140	0.150	vis	-3323.80	0	-3324	0.74	Small 1973		Szabados 1977
+41854.201	0.150	vis	-3298.84	0	-3299	0.59	un.			Turner 2007 tab. 3
+41954.840	0.150	vis	-3271.85	0	-3272	0.56	un.			AAVSO Berdnikov 2003
+42100.296	1.150	V	-3232.84	0	-3233	0.61	Szabados		Szabados 1977
+42137.473	0.150	vis	-3222.87	0	-3223	0.50	un.			Turner 2007 tab. 3
+42361.155	0.050	V	-3162.87	0	-3163	0.47	Arellano 		Pena et al. 2010
+42361.190	0.050	pg	-3162.86	0	-3163	0.51	Berdnikov		BAV Meyer 2023
+42361.236	0.050	pe	-3162.85	0	-3163	0.55	un.			BAV Meyer 2023
+42450.700	0.150	vis	-3138.86	0	-3139	0.53	FGR (Figer)		GEOS Busquets 1982
+42450.730	0.150	vis	-3138.85	0	-3139	0.56	RMS (Rémis)		GEOS Busquets 1982
+42458.170	0.150	vis	-3136.85	0	-3137	0.55	RAL (Ralincourt)	GEOS Busquets 1982
+42521.460	0.150	vis	-3119.88	0	-3120	0.45	TRP (Troispoux)		GEOS Busquets 1982
+42525.277	0.150	vis	-3118.85	0	-3119	0.54	un.			Turner 2007 tab. 3
+42532.650	0.150	vis	-3116.88	0	-3117	0.46	ROL (Rolland)		GEOS Busquets 1982
+42562.520	0.150	vis	-3108.87	0	-3109	0.50	un.			AAVSO Berdnikov 2003
+42752.840	0.150	vis	-3057.82	0	-3058	0.67	POI (Poretti)		GEOS Busquets 1982
+42756.380	0.150	vis	-3056.87	0	-3057	0.48	un.			AAVSO Berdnikov 2003
+42804.880	0.150	vis	-3043.86	0	-3044	0.51	un.			AAVSO Berdnikov 2003
+42838.200	0.150	vis	-3034.93	0	-3035	0.27	ROY (Royer)		GEOS Busquets 1982
+42838.410	0.150	vis	-3034.87	0	-3035	0.48	GEOS GEOS Coll.		GEOS Boninsegna 1982
+42845.870	0.150	vis	-3032.87	0	-3033	0.49	GUI (Guiraudou)		GEOS Busquets 1982
+42856.900	0.150	vis	-3029.91	0	-3030	0.33	FRL (Frangeul)		GEOS Busquets 1982
+42864.510	0.150	vis	-3027.87	0	-3028	0.48	MIS (Misson)		GEOS Busquets 1982
+42920.412	0.150	vis	-3012.88	0	-3013	0.46	un.			Turner 2007 tab. 3
+43170.270	0.150	vis	-2945.86	0	-2946	0.51	LTL (Letellier)		GEOS Busquets 1982
+43181.270	0.150	vis	-2942.91	0	-2943	0.32	FLB (Le Borgne)		GEOS Busquets 1982
+43181.380	0.150	vis	-2942.88	0	-2943	0.43	WAB (Wabnitz)		GEOS Busquets 1982
+43185.070	0.150	vis	-2941.89	0	-2942	0.39	BUZ (Buzzoni)		GEOS Busquets 1982
+43188.870	0.150	vis	-2940.88	0	-2941	0.46	FRL (Frangeul)		GEOS Busquets 1982
+43203.790	0.150	vis	-2936.87	0	-2937	0.47	POI (Poretti)		GEOS Busquets 1982
+43222.460	0.150	vis	-2931.87	0	-2932	0.50	ALB (Albert)		GEOS Busquets 1982
+43241.186	0.150	vis	-2926.84	0	-2927	0.58	un.			Turner 2007 tab. 3
+43244.340	0.050	vis	-2926.00	0	-2926	0.01	Reichenbaecher		BAV Meyer 2023
+43490.870	0.150	vis	-2859.88	0	-2860	0.46	GUI (Guiraudou)		GEOS Busquets 1982
+43494.490	0.100	vis	-2858.91	0	-2859	0.35	MIS (Misson)		GEOS pr. com.
+43535.540	0.150	vis	-2847.90	0	-2848	0.39	POI (Poretti)		GEOS Busquets 1982
+43539.286	0.150	un.	-2846.89	0	-2847	0.40	Moffett & Barnes 1984	Turner 2007 tab. 3
+43546.790	0.150	vis	-2844.88	0	-2845	0.45	BUZ (Buzzoni)		GEOS Busquets 1982
+43550.370	0.150	vis	-2843.92	0	-2844	0.30	PMP (Pampaloni)		GEOS Busquets 1982
+43554.140	0.150	vis	-2842.91	0	-2843	0.34	FCH (Fecchucci)		GEOS Busquets 1982
+43569.240	0.150	vis	-2838.86	0	-2839	0.53	CLV (Clovin)		GEOS Busquets 1982
+43572.810	0.150	vis	-2837.90	0	-2838	0.37	NZY (Nezry)		GEOS Busquets 1982
+43606.370	0.080	vis	-2828.90	0	-2829	0.37	MIS (Misson)		GEOS pr. com.
+43826.380	0.150	vis	-2769.89	0	-2770	0.40	un.			AAVSO Berdnikov 2003
+43830.090	0.050	pe	-2768.90	0	-2769	0.38	Moffett & Barnes 1984	BAV Meyer 2023
+43935.870	0.150	vis	-2740.53	0	-2741	1.77	un.			Turner 2007 tab. 3
+43975.518	0.150	un.	-2729.89	0	-2730	0.40	Moffett & Barnes 1984	Turner 2007 tab. 3
+43990.420	0.150	V	-2725.90	0	-2726	0.39	Harris 1980		Turner 2007 tab.2
+44031.310	0.150	vis	-2714.93	0	-2715	0.27	RAL (Ralincourt)	GEOS Gobet 1992
+44079.920	0.150	V	-2701.89	0	-2702	0.41	Moffett & Barnes 1984	Fernie 1993
+44080.020	0.150	vis	-2701.86	0	-2702	0.51	PMP (Pampaloni)		GEOS Dalmazzio 1998
+44106.001	0.150	V	-2694.90	0	-2695	0.39	Moffett & Barnes 1984	Szabados 1991
+44135.795	0.150	vis	-2686.91	0	-2687	0.35	un.			Turner 2007 tab. 3
+44217.822	0.150	V	-2664.90	0	-2665	0.35	Moffett & Barnes 1984	Moffett & Barnes 1984
+44240.260	0.150	vis	-2658.89	0	-2659	0.42	Ficola			GEOS Busquets 1982
+44251.350	0.100	vis	-2655.91	0	-2656	0.33	BTL (Boistel)		GEOS this paper
+44266.350	0.100	vis	-2651.89	0	-2652	0.41	BTL (Boistel)		GEOS this paper
+44288.750	0.150	vis	-2645.88	0	-2646	0.44	un.			AAVSO Berdnikov 2003
+44292.340	0.050	vis	-2644.92	0	-2645	0.30	Reichenbaecher		BAV Meyer 2023
+44296.160	0.150	vis	-2643.89	0	-2644	0.39	MLO			GEOS Busquets 1982
+44344.710	0.050	vis	-2630.87	0	-2631	0.47	Hinzpeter		BAV Meyer 2023
+44378.093	0.150	vis	-2621.92	0	-2622	0.30	un.			Turner 2007 tab. 3
+44430.344	0.150	vis	-2607.91	0	-2608	0.35	BTL (Boistel)		GEOS Busquets 1982
+44523.920	0.150	V	-2582.81	0	-2583	0.72	Eggen 			Fernie 1993
+44534.792	0.150	un.	-2579.89	0	-2580	0.40	Eggen 1985		Turner 2007 tab. 3
+44542.014	0.050	pe	-2577.95	0	-2578	0.17	Eggen			BAV Meyer 2023
+44635.360	0.050	vis	-2552.92	0	-2553	0.30	Reichenbaecher		BAV Meyer 2023
+44635.420	0.050	vis	-2552.90	0	-2553	0.36	Raetz			BAV Meyer 2023
+44639.270	0.150	vis	-2551.87	0	-2552	0.48	Ficola			GEOS Busquets 1982
+44665.260	0.050	vis	-2544.90	0	-2545	0.37	Raetz			BAV Meyer 2023
+44665.340	0.050	vis	-2544.88	0	-2545	0.45	Reichenbaecher		BAV Meyer 2023
+44702.500	0.050	vis	-2534.91	0	-2535	0.33	Reichenbaecher		BAV Meyer 2023
+44706.330	0.050	vis	-2533.88	0	-2534	0.43	Reichenbaecher		BAV Meyer 2023
+44706.370	0.050	vis	-2533.87	0	-2534	0.47	Koehler			BAV Meyer 2023
+44706.600	0.050	vis	-2533.81	0	-2534	0.70	Raetz			BAV Meyer 2023
+44710.380	0.050	vis	-2532.80	0	-2533	0.75	Raetz			BAV Meyer 2023
+44758.522	0.150	vis	-2519.89	0	-2520	0.42	un.			Turner 2007 tab. 3
+44937.350	0.050	vis	-2471.92	0	-2472	0.28	Raetz			BAV Meyer 2023
+44952.300	0.050	vis	-2467.91	0	-2468	0.32	Koehler			BAV Meyer 2023
+44956.400	0.050	vis	-2466.81	0	-2467	0.69	Koehler			BAV Meyer 2023
+44967.410	0.050	vis	-2463.86	0	-2464	0.52	Koehler			BAV Meyer 2023
+44986.100	0.050	vis	-2458.85	0	-2459	0.56	Reichenbaecher		BAV Meyer 2023
+45001.020	0.050	vis	-2454.85	0	-2455	0.57	Schmidt			BAV Meyer 2023
+45004.600	0.150	vis	-2453.89	0	-2454	0.42	MAM (Mammoliti)		GEOS Busquets 1982
+45008.320	0.050	vis	-2452.89	0	-2453	0.41	Koehler			BAV Meyer 2023
+45012.290	0.050	vis	-2451.82	0	-2452	0.66	Koehler			BAV Meyer 2023
+45023.320	0.050	vis	-2448.87	0	-2449	0.50	Koehler			BAV Meyer 2023
+45075.435	0.150	V	-2434.89	0	-2435	0.42	Raetz & Schille 1988	BAV Meyer 2023
+45105.158	0.150	V	-2426.92	0	-2427	0.31	Raetz & Schille 1988	BAV Meyer 2023
+45108.977	0.150	un.	-2425.89	0	-2426	0.40	un.			Turner 2007 tab. 3
+45463.189	0.150	un.	-2330.89	0	-2331	0.41	un.			Turner 2007 tab. 3
+45746.370	0.200	vis	-2254.94	0	-2255	0.22	BTL (Boistel)		GEOS this paper
+45817.350	0.150	vis	-2235.90	0	-2236	0.36	SD (Schmidt)		BAV DataB
+45835.952	0.150	un.	-2230.91	0	-2231	0.32	un.			Turner 2007 tab. 3
+46007.450	0.150	V	-2184.92	0	-2185	0.31	Koehler			BAV Meyer 2023
+46074.570	0.150	vis	-2166.91	0	-2167	0.32	un.			AAVSO Berdnikov 2003
+46093.240	0.150	V	-2161.91	0	-2162	0.34	Ratz & Schille 1988	Ratz & Schille, 1988
+46100.310	0.050	vis	-2160.01	0	-2160	-0.04	Koehler			BAV Meyer 2023
+46104.280	0.050	vis	-2158.95	0	-2159	0.20	Raetz			BAV Meyer 2023
+46119.300	0.150	vis	-2154.92	0	-2155	0.31	GEOS GEOS Coll.		GEOS Gobet 1989
+46190.169	0.150	un.	-2135.91	0	-2136	0.33	un.			Turner 2007 tab. 3
+46261.000	0.150	vis	-2116.91	0	-2117	0.32	un.			AAVSO Berdnikov 2003
+46330.850	0.150	vis	-2098.18	0	-2098	-0.67	SM (Sturm)		BAV DataB
+46398.941	0.150	pv	-2079.92	0	-2080	0.31	Minsk Arch.		Turner 2007 tab. 3
+46454.910	0.150	vis	-2064.91	0	-2065	0.35	GEOS Coll.		GEOS Gobet 1989
+46488.580	0.150	pe	-2055.88	0	-2056	0.47	Goldman et al. 1988	Turner 2007 tab.2
+46492.230	0.050	vis	-2054.90	0	-2055	0.39	Bryuchanow		BAV Meyer 2023
+46507.030	0.050	vis	-2050.93	0	-2051	0.27	Berger			BAV Meyer 2023
+46518.405	0.150	pe	-2047.88	0	-2048	0.46	Goldman et al. 1988	Turner 2007 tab.2
+46563.027	0.150	vis	-2035.91	0	-2036	0.34	un.			Turner 2007 tab. 3
+46798.420	0.150	vis	-1972.77	0	-1973	0.84	BTL (Boistel)		GEOS this paper
+46824.299	0.150	pe	-1965.83	0	-1966	0.62	Goldman et al. 1988	Turner 2007 tab.2
+46825.250	0.150	vis	-1965.58	0	-1966	1.57	SM (Sturm)		BAV DataB
+46827.900	0.150	pe	-1964.87	0	-1965	0.49	Goldman et al. 1988	Turner 2007 tab.2
+46842.574	0.150	un.	-1960.93	0	-1961	0.25	Bryukhanov		Turner 2007 tab. 3
+46846.420	0.150	vis	-1959.90	0	-1960	0.37	GEOS GEOS Coll.		GEOS Gobet 1989
+46850.298	0.150	pe	-1958.86	0	-1959	0.52	Goldman et al. 1988	Turner 2007 tab.2
+46917.304	0.150	un.	-1940.89	0	-1941	0.41	Anon. 1987		Turner 2007 tab.2
+46935.870	0.150	un.	-1935.91	0	-1936	0.34	Anon. 1987		Turner 2007
+47148.220	0.150	V	-1878.96	0	-1879	0.16	Ratz & Schille 1988	Turner 2007 tab.2
+47152.230	0.150	un.	-1877.88	0	-1878	0.44	Anon. 1987		Turner 2007 tab.2
+47167.400	0.150	vis	-1873.81	0	-1874	0.70	AW (Alterweier)		BAV DataB
+47170.830	0.050	vis	-1872.89	0	-1873	0.40	Goldhahn		BAV Meyer 2023
+47174.330	0.150	vis	-1871.95	0	-1872	0.17	SM (Sturm)		BAV DataB
+47174.470	0.150	vis	-1871.92	0	-1872	0.31	WU (Wunder)		BAV DataB
+47200.800	0.150	vis	-1864.85	0	-1865	0.54	DM (Dahm)		BAV DataB
+47219.190	0.150	vis	-1859.92	0	-1860	0.29	GEOS GEOS Coll.		GEOS Gobet 1989
+47230.400	0.150	vis	-1856.92	0	-1857	0.32	PI (Pietz)		BAV DataB
+47234.249	0.150	un.	-1855.88	0	-1856	0.44	Anon. 1987		Turner 2007 tab.2
+47278.960	0.150	vis	-1843.89	0	-1844	0.41	SC (Schroeder)		BAV DataB
+47308.614	0.150	vis	-1835.94	0	-1836	0.23	un.			Turner 2007 tab. 3
+47465.342	0.150	un.	-1793.90	0	-1794	0.36	Barnes et al. 1997	Turner 2007 tab. 3
+47487.792	0.150	V	-1787.88	0	-1788	0.44	Barnes et al. 1997	Barnes 1997
+47528.710	0.150	vis	-1776.91	0	-1777	0.35	GEOS GEOS Coll.		GEOS Gobet 1989
+47536.190	0.150	vis	-1774.90	0	-1775	0.37	VBR (Vandenbroare)	GEOS Dalmazzio 1997
+47551.200	0.150	vis	-1770.87	0	-1771	0.47	AW (Alterweier)		BAV DataB
+47551.240	0.150	vis	-1770.86	0	-1771	0.51	SC (Schroeder)		BAV DataB
+47551.290	0.150	vis	-1770.85	0	-1771	0.56	SM (Sturm)		BAV DataB
+47562.026	0.150	pv	-1767.97	0	-1768	0.11	Odessa arch.		Turner 2007 tab. 3
+47562.350	0.150	vis	-1767.88	0	-1768	0.43	DM (Dahm)		BAV DataB
+47588.360	0.150	vis	-1760.91	0	-1761	0.34	SU (Schubert)		BAV DataB
+47610.840	0.050	vis	-1754.88	0	-1755	0.45	Goldhahn		BAV Meyer 2023
+47707.593	0.150	vis	-1728.93	0	-1729	0.26	un.			Turner 2007 tab. 3
+47849.240	0.050	vis	-1690.94	0	-1691	0.23	Raetz			BAV Meyer 2023
+47889.950	0.150	vis	-1680.02	0	-1680	-0.08	CBO (Colombo)		GEOS Colombo 1989
+47890.260	0.150	vis	-1679.94	0	-1680	0.23	CBO (Colombo)		GEOS Gobet 1992
+47890.265	0.150	vis	-1679.94	0	-1680	0.24	Kosinsky		Kosinsky, OAP 2005
+47909.420	0.150	vis	-1674.80	0	-1675	0.75	SM (Sturm)		BAV DataB
+47920.500	0.150	vis	-1671.83	0	-1672	0.65	DM (Dahm)		BAV DataB
+47942.456	0.150	un.	-1665.94	0	-1666	0.23	Sergey			Turner 2007 tab. 3
+47946.230	0.050	vis	-1664.93	0	-1665	0.28	Raetz			BAV Meyer 2023
+47946.330	0.150	vis	-1664.90	0	-1665	0.38	SF (Seifert)		BAV DataB
+47949.853	0.150	un.	-1663.95	0	-1664	0.17	Odessa arch.		Turner 2007 tab. 3
+47949.888	0.150	pv	-1663.94	0	-1664	0.21	Kosa-Kiss et al.	Turner 2007 tab. 3
+47957.600	0.150	vis	-1661.88	0	-1662	0.46	SC (Schroeder)		BAV DataB
+48061.730	0.150	vis	-1633.95	0	-1634	0.19	un.			Turner 2007 tab. 3
+48196.140	0.150	vis	-1597.90	0	-1598	0.38	DM Dahm)		BAV DataB
+48229.660	0.050	vis	-1588.91	0	-1589	0.34	Goldhahn		BAV Meyer 2023
+48251.930	0.150	un.	-1582.94	0	-1583	0.24	Sergey			Turner 2007 tab. 3
+48270.569	0.150	un.	-1577.94	0	-1578	0.24	Schukin, Sergey		Turner 2007 tab. 3
+48270.660	0.150	vis	-1577.91	0	-1578	0.33	FRL (Frangeul)		GEOS Gobet 1992
+48274.290	0.150	vis	-1576.94	0	-1577	0.23	SM (Sturm)		BAV DataB
+48300.480	0.150	vis	-1569.91	0	-1570	0.32	SC (Schroeder)		BAV DataB
+48304.135	0.150	pv	-1568.93	0	-1569	0.25	Minsk Arch.		Turner 2007 tab. 3
+48382.431	0.150	vis	-1547.93	0	-1548	0.25	un.			Turner 2007 tab. 3
+48490.520	0.150	V	-1518.94	0	-1519	0.21	Hipparcos		Turner 2007 tab. 3
+48501.702	0.050	V	-1515.94	0	-1516	0.21	Hipparcos		BAV Meyer 2023
+48513.160	0.150	vis	-1512.87	0	-1513	0.48	DM Dahm)		BAV DataB
+48617.050	0.150	un.	-1485.01	0	-1485	-0.03	Sergey			Turner 2007 tab. 3
+48632.137	0.150	un.	-1480.96	0	-1481	0.14	Narkevich		Turner 2007 tab. 3
+48643.510	0.150	vis	-1477.91	0	-1478	0.33	GOL (Hartmut)		BAV DataB
+48651.330	0.150	vis	-1475.81	0	-1476	0.69	SM (Sturm)		BAV DataB
+48662.024	0.150	un.	-1472.95	0	-1473	0.20	Minsk Arch.		Turner 2007 tab. 3
+48669.438	0.150	V	-1470.96	0	-1471	0.16	Hipparcos		Hipparcos 1997 this paper
+48669.513	0.150	V	-1470.94	0	-1471	0.23	Hipparcos		Hipparcos 1997 this paper
+48669.527	0.150	V	-1470.93	0	-1471	0.25	Hipparcos		Hipparcos 1997 this paper
+48710.490	0.150	un.	-1459.95	0	-1460	0.20	Grigorenko		Turner 2007 tab. 3
+48718.030	0.150	vis	-1457.92	0	-1458	0.28	SC (Schroeder)		BAV DataB
+48796.305	0.150	vis	-1436.93	0	-1437	0.26	un.			Turner 2007 tab. 3
+48859.615	0.050	V	-1419.95	0	-1420	0.18	un.			BAV Meyer 2023
+48986.430	0.150	vis	-1385.94	0	-1386	0.23	RAT (M. Raetz)		BAV DataB
+48997.475	0.150	un.	-1382.98	0	-1383	0.09	Narkevich		Turner 2007 tab. 3
+48997.622	0.150	un.	-1382.94	0	-1383	0.24	Minsk Arch.		Turner 2007 tab. 3
+49016.242	0.150	un.	-1377.94	0	-1378	0.21	Sergey			Turner 2007 tab. 3
+49031.320	0.150	vis	-1373.90	0	-1374	0.38	RCR (K. Raetz)		BAV DataB
+49046.030	0.150	vis	-1369.95	0	-1370	0.17	un.			AAVSO Berdnikov 2003
+49061.330	0.150	vis	-1365.85	0	-1366	0.56	SM (Sturm)		BAV DataB
+49083.083	0.050	V	-1360.02	0	-1360	-0.06	Arellano		Arellano Ferro et al. 2010
+49083.323	0.150	vis	-1359.95	0	-1360	0.18	un.			Turner 2007 tab. 3
+49232.390	0.150	vis	-1319.97	0	-1320	0.11	un.			AAVSO Berdnikov 2003
+49269.725	0.150	un.	-1309.96	0	-1310	0.16	Minsk Arch.		Turner 2007 tab. 3
+49269.785	0.150	un.	-1309.94	0	-1310	0.22	Kosinski		Turner 2007 tab. 3
+49273.880	0.150	vis	-1308.84	0	-1309	0.59	DM (Dahm)		BAV DataB
+49362.956	0.150	un.	-1284.95	0	-1285	0.18	Sergey			Turner 2007 tab. 3
+49396.330	0.150	vis	-1276.00	0	-1276	0.00	SM (Sturm)		BAV DataB
+49396.670	0.150	vis	-1275.91	0	-1276	0.34	GOL (Hartmut)		BAV DataB
+49400.360	0.150	vis	-1274.92	0	-1275	0.30	RAT (M. Raetz)		BAV DataB
+49444.950	0.150	vis	-1262.96	0	-1263	0.15	un.			AAVSO Berdnikov 2003
+49530.673	0.150	vis	-1239.97	0	-1240	0.11	un.			Turner 2007 tab. 3
+49661.400	0.150	vis	-1204.91	0	-1205	0.34	RCR (K. Raetz)		BAV DataB
+49664.900	0.150	vis	-1203.97	0	-1204	0.12	un.			AAVSO Berdnikov 2003
+49735.831	0.150	un.	-1184.94	0	-1185	0.21	Minsk Arch.		Turner 2007 tab. 3
+49743.330	0.150	vis	-1182.93	0	-1183	0.25	SM (Sturm)		BAV DataB
+49750.890	0.150	vis	-1180.91	0	-1181	0.35	GOL (Hartmut)		BAV DataB
+49817.990	0.150	vis	-1162.91	0	-1163	0.34	SC (Schroeder)		BAV DataB
+49888.560	0.150	vis	-1143.98	0	-1144	0.07	un.			Turner 2007 tab. 3
+50015.384	0.150	un.	-1109.97	0	-1110	0.12	Berdnikov et al. 1997	Turner 2007 tab. 3
+50101.159	0.150	V	-1086.96	0	-1087	0.14	Kiss 1998		Kiss 1998
+50112.202	0.150	un.	-1084.00	0	-1084	0.00	Minsk Arch.		Turner 2007 tab. 3
+50119.770	0.150	vis	-1081.97	0	-1082	0.11	GOL (Hartmut)		BAV DataB
+50120.130	0.150	vis	-1081.87	0	-1082	0.47	MZ (Maintz)		BAV DataB
+50138.450	0.150	vis	-1076.96	0	-1077	0.15	un.			AAVSO Berdnikov 2003
+50164.357	0.150	un.	-1070.01	0	-1070	-0.04	Sergey			Turner 2007 tab. 3
+50194.298	0.150	V	-1061.98	0	-1062	0.07	Kiss 1998		Kiss 1998
+50198.098	0.150	un.	-1060.96	0	-1061	0.14	Kiss 1998		Turner 2007 tab. 3
+50239.100	0.150	vis	-1049.97	0	-1050	0.13	un.			AAVSO Berdnikov 2003
+50242.841	0.150	vis	-1048.96	0	-1049	0.14	un.			Turner 2007 tab. 3
+50481.435	0.150	V	-984.97		0	-985	0.11	Kiss 1998		Kiss 1998
+50511.291	0.150	vis	-976.96		0	-977	0.14	un.			Turner 2007 tab. 3
+50515.330	0.150	vis	-975.88		0	-976	0.45	SM (Sturm)		BAV DataB
+50716.290	0.150	vis	-921.98		0	-922	0.07	un.			AAVSO Berdnikov 2003
+50731.200	0.150	vis	-917.98		0	-918	0.07	un.			AAVSO Berdnikov 2003
+50757.365	0.150	vis	-910.96		0	-911	0.13	un.			Turner 2007 tab. 3
+50809.520	0.150	vis	-896.98		0	-897	0.09	un.			AAVSO Berdnikov 2003
+50846.800	0.150	vis	-886.98		0	-887	0.09	MYR (Meyer)		BAV DataB
+50847.290	0.150	vis	-886.85		0	-887	0.58	SM (Sturm)		BAV DataB
+50857.920	0.150	vis	-883.99		0	-884	0.02	un.			AAVSO Berdnikov 2003
+50861.630	0.150	vis	-883.00		0	-883	0.00	un.			AAVSO Berdnikov 2003
+50865.339	0.150	un.	-882.00		0	-882	-0.02	Sergey			Turner 2007 tab. 3
+50884.076	0.150	vis	-876.98		0	-877	0.08	un.			Turner 2007 tab. 3
+51070.460	0.150	vis	-826.99		0	-827	0.04	un.			AAVSO Berdnikov 2003
+51103.960	0.150	vis	-818.01		0	-818	-0.02	un.			AAVSO Berdnikov 2003
+51126.393	0.150	vis	-811.99		0	-812	0.04	un.			Turner 2007 tab. 3
+51238.290	0.150	vis	-781.98		0	-782	0.09	SM (Sturm)		BAV DataB
+51245.622	0.150	vis	-780.01		0	-780	-0.04	un.			Turner 2007 tab. 3
+51256.890	0.150	vis	-776.99		0	-777	0.04	MYR (Meyer)		BAV DataB
+51368.770	0.150	vis	-746.98		0	-747	0.07	un.			AAVSO Berdnikov 2003
+51376.140	0.150	vis	-745.01		0	-745	-0.02	un.			AAVSO Berdnikov 2003
+51484.310	0.150	vis	-715.99		0	-716	0.03	un.			AAVSO Berdnikov 2003
+51488.012	0.150	vis	-715.00		0	-715	0.00	un.			Turner 2007 tab. 3
+51502.940	0.150	vis	-711.00		0	-711	0.01	un.			AAVSO Berdnikov 2003
+51536.530	0.150	vis	-701.99		0	-702	0.05	un.			AAVSO Berdnikov 2003
+51674.434	0.150	vis	-665.00		0	-665	0.00	un.			Turner 2007 tab. 3
+51715.450	0.150	vis	-654.00		0	-654	0.00	un.			AAVSO Berdnikov 2003
+51767.680	0.150	vis	-639.99		0	-640	0.03	un.			AAVSO Berdnikov 2003
+51987.800	0.150	vis	-580.95		0	-581	0.17	SU (Schubert)		BAV DataB
+51998.790	0.150	vis	-578.01		0	-578	-0.03	un.			AAVSO Berdnikov 2003
+52036.067	0.150	vis	-568.01		0	-568	-0.03	un.			Turner 2007 tab. 3
+52371.704	0.150	vis	-477.99		0	-478	0.04	un.			Turner 2007 tab. 3
+52692.290	0.150	vis	-392.01		0	-392	-0.02	SM (Sturm)		BAV DataB
+52722.100	0.150	vis	-384.01		0	-384	-0.04	MYR (Meyer)		BAV DataB
+52815.341	0.150	vis	-359.00		0	-359	-0.01	un.			Turner 2007 tab. 3
+53065.190	0.150	vis	-291.99		0	-292	0.03	SM (Sturm)		BAV DataB
+53128.586	0.150	vis	-274.99		0	-275	0.04	un.			Turner 2007 tab. 3
+53408.200	0.150	vis	-200.00		0	-200	0.02	SM (Sturm)		BAV DataB
+53438.082	0.150	un.	-191.98		0	-192	0.07	Semenyuta		Turner 2007 tab. 3
+53478.956	0.150	un.	-181.02		0	-181	-0.07	Balyuk			Turner 2007 tab. 3
+53508.822	0.150	vis	-173.01		0	-173	-0.03	un.			Turner 2007 tab. 3
+53661.630	0.150	vis	-132.02		0	-132	-0.09	Meyer			BAV OEJV 51, Meyer 2006
+53780.985	0.150	vis	-100.01		0	-100	-0.05	un.			Turner 2007 tab. 3
+54045.555	0.050	V	-29.05		0	-29	-0.20	Arellano		Pena et al. 2010
+54131.557	0.150	un.	-5.99		0	-6	0.05	Abbey Ridge Data	Turner 2007 tab. 3
+54153.871	0.150	un.	0.00		0	0	-0.01	Bryukhanov		Turner 2007 tab. 3
+54153.880	0.150	V	0.00		0	0	0.00	Turner			GCVS 4 (Turner 2007)
+54183.605	0.150	V	7.97		0	8	-0.10	un.			Turner, 2007
+54508.340	0.150	vis	95.07		0	95	0.25	SM (Sturm)		BAV Hübscher et al. 2008 OEJV 097
+55141.800	0.150	V	264.97		0	265	-0.13	HQA (Henden)		AAVSO this paper
+55193.985	0.150	V,B	278.96		0	279	-0.14	HQA (Henden)		AAVSO this paper
+55593.046	0.150	V	385.99		0	386	-0.03	KWS			KWS this paper
+55615.276	0.150	vis	391.95		0	392	-0.17	SM (Sturm)		BAV Hübscher et al. 2008 OEJV 097
+55827.880	0.150	V	448.98		0	449	-0.09	HQA (Henden)		AAVSO this paper
+55853.810	0.150	B	455.93		0	456	-0.26	HQA (Henden)		AAVSO this paper
+55894.760	0.150	B	466.91		0	467	-0.32	HQA (Henden)		AAVSO this paper
+55976.751	0.150	B	488.90		0	489	-0.36	HQA (Henden)		AAVSO this paper
+55980.740	0.150	V,B	489.97		0	490	-0.10	HQA (Henden)		AAVSO this paper
+56278.968	0.093	V	569.96		0	570	-0.15	MOST sat.		Evans et al. 2015
+56282.646	0.042	V	570.95		0	571	-0.20	MOST sat.		Evans et al. 2015
+56286.424	0.092	V	571.96		0	572	-0.15	MOST sat.		Evans et al. 2015
+56290.158	0.098	V	572.96		0	573	-0.14	MOST sat.		Evans et al. 2015
+56293.858	0.070	V	573.95		0	574	-0.17	MOST sat.		Evans et al. 2015
+56297.561	0.044	V	574.95		0	575	-0.20	MOST sat.		Evans et al. 2015
+57098.968	0.150	V	789.89		0	790	-0.41	KWS			KWS this paper
+57360.185	0.150	V	859.95		0	860	-0.19	KWS			KWS this paper
+57386.125	0.150	V	866.91		0	867	-0.35	KWS			KWS this paper
+58575.570	0.150	V	1185.92		0	1186	-0.29	MOD (Mohrbacher)	AAVSO this paper
+59224.090	0.100	V	1359.86		0	1360	-0.53	KWS			KWS this paper
+59597.020	0.150	vis	1459.88		0	1460	-0.45	FND (Ferrand)		GEOS this paper
+59630.512	0.150	V	1468.86		0	1469	-0.51	DKS (Dvorak)		AAVSO this paper
+59645.352	0.150	vis	1472.84		0	1473	-0.59	BTL (Boistel)		GEOS this paper
+59645.530	0.150	V	1472.89		0	1473	-0.41	DKS (Dvorak)		AAVSO this paper
+59906.390	0.150	vis	1542.85		0	1543	-0.54	FND (Ferrand)		GEOS this paper
+59910.210	0.150	V	1543.88		0	1544	-0.45	KWS			KWS this paper
+59921.287	0.110	vis	1546.85		0	1547	-0.56	FND (Ferrand)		GEOS this paper
